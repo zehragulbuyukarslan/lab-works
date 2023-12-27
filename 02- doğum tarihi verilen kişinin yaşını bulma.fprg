@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="zhg"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-24 07:45:55 &#214;&#214;"/>
+        <attribute name="created" value="emhnO1pIUjsyMDIzLTExLTE2OzA3OjM1OjQyIMOWUzsxOTk0"/>
+        <attribute name="edited" value="emhnO1pIUjsyMDIzLTExLTI0OzA3OjQ1OjU1IMOWw5Y7MjsyMjM4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="y&#305;l, Do&#287;umY&#305;l&#305;, ya&#351;" type="Integer" array="False" size=""/>
+            <assign variable="y&#305;l" expression="2023"/>
+            <input variable="Do&#287;umY&#305;l&#305;"/>
+            <assign variable="ya&#351;" expression="y&#305;l-Do&#287;umY&#305;l&#305;"/>
+            <output expression="ya&#351;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

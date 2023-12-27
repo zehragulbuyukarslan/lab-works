@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="zhg"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-24 08:05:14 &#214;&#214;"/>
+        <attribute name="created" value="emhnO1pIUjsyMDIzLTExLTE2OzEwOjE4OjUwIMOWUzsxOTg4"/>
+        <attribute name="edited" value="emhnO1pIUjsyMDIzLTExLTI0OzA4OjA1OjE0IMOWw5Y7MjsyMjMw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="para, toplam" type="Integer" array="False" size=""/>
+            <input variable="para"/>
+            <assign variable="toplam" expression="para/200"/>
+            <assign variable="para" expression="para%200"/>
+            <assign variable="toplam" expression="toplam+para/100"/>
+            <assign variable="para" expression="para%100"/>
+            <assign variable="toplam" expression="toplam+para/50"/>
+            <assign variable="para" expression="para%50"/>
+            <assign variable="toplam" expression="toplam+para/20"/>
+            <assign variable="para" expression="para%20"/>
+            <assign variable="toplam" expression="toplam+para/10"/>
+            <assign variable="para" expression="para%10"/>
+            <assign variable="toplam" expression="toplam+para/5"/>
+            <output expression="toplam" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

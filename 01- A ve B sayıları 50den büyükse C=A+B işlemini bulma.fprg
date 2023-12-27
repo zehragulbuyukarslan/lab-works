@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="zhg"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-16 09:30:48 &#214;S"/>
+        <attribute name="created" value="emhnO1pIUjsyMDIzLTExLTE2OzA5OjI1OjEwIMOWUzsxOTkw"/>
+        <attribute name="edited" value="emhnO1pIUjsyMDIzLTExLTE2OzA5OjMwOjQ4IMOWUzsxOzIxMDU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B, C" type="Real" array="False" size=""/>
+            <input variable="A"/>
+            <input variable="B"/>
+            <if expression="(a&gt;50)&amp;&amp;(b&gt;50)">
+                <then>
+                    <assign variable="C" expression="A+B"/>
+                    <output expression="C" newline="True"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="zhg"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-16 08:12:32 &#214;S"/>
+        <attribute name="created" value="emhnO1pIUjsyMDIzLTExLTE2OzA3OjQyOjE3IMOWUzsxOTk0"/>
+        <attribute name="edited" value="emhnO1pIUjsyMDIzLTExLTE2OzA4OjEyOjMyIMOWUzsxOzIwOTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, d" type="Real" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <input variable="d"/>
+            <if expression="(a&lt;=0&amp;&amp;b&lt;=0)&amp;&amp;(c&lt;=0&amp;&amp;d&lt;=0)">
+                <then>
+                    <output expression="&quot;yanl&#305;&#351; de&#287;er girdiniz&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="(a=b&amp;&amp;b=c)&amp;&amp;c=d">
+                <then>
+                    <output expression="&quot;bu dikd&#246;rtgen bir karedir&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;bu dikd&#246;rtgen bir kare de&#287;ildir&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

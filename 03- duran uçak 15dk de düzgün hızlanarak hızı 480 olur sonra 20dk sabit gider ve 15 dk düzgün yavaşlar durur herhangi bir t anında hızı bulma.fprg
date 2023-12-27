@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="zhg"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-16 09:47:47 &#214;S"/>
+        <attribute name="created" value="emhnO1pIUjsyMDIzLTExLTE2OzA5OjMxOjI2IMOWUzsxOTk0"/>
+        <attribute name="edited" value="emhnO1pIUjsyMDIzLTExLTE2OzA5OjQ3OjQ3IMOWUzsxOzIxMTI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="t" type="Integer" array="False" size=""/>
+            <declare name="h&#305;z" type="Integer" array="False" size=""/>
+            <input variable="t"/>
+            <if expression="t&lt;=15">
+                <then>
+                    <assign variable="h&#305;z" expression="t*32"/>
+                </then>
+                <else>
+                    <if expression="t&lt;=35">
+                        <then>
+                            <assign variable="h&#305;z" expression="480"/>
+                        </then>
+                        <else>
+                            <assign variable="h&#305;z" expression="(50-t)*32"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="h&#305;z" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
