@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="zhg"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-12-18 11:54:29 &#214;S"/>
+        <attribute name="created" value="emhnO1pIUjsyMDIzLTEyLTE4OzExOjMzOjMzIMOWUzsxOTkw"/>
+        <attribute name="edited" value="emhnO1pIUjsyMDIzLTEyLTE4OzExOjU0OjI5IMOWUzsxOzIxMDY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b" type="Integer" array="False" size=""/>
+            <input variable="b"/>
+            <declare name="ort" type="Real" array="False" size=""/>
+            <while expression="(b&lt;1000)&amp;&amp;(b&gt;99)">
+                <assign variable="a" expression="b"/>
+                <declare name="bs1, bs2, bs3" type="Integer" array="False" size=""/>
+                <assign variable="bs1" expression="b%10"/>
+                <assign variable="b" expression="b/10"/>
+                <assign variable="bs2" expression="b%10"/>
+                <assign variable="b" expression="b/10"/>
+                <assign variable="bs3" expression="b"/>
+                <assign variable="ort" expression="(bs1+bs2+bs3)/3"/>
+                <output expression="a&amp;&quot;say&#305;s&#305;n&#305;n basamaklar&#305;n&#305;n ortalamas&#305;:&quot; &amp;ort" newline="True"/>
+                <input variable="b"/>
+            </while>
+            <output expression="&quot;yanl&#305;&#351; de&#287;er girdiniz.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

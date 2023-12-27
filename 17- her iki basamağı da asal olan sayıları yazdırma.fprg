@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="zhg"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-12-18 10:49:36 &#214;S"/>
+        <attribute name="created" value="emhnO1pIUjsyMDIzLTEyLTE4OzEwOjEwOjI2IMOWUzsxOTg2"/>
+        <attribute name="edited" value="emhnO1pIUjsyMDIzLTEyLTE4OzEwOjQ5OjM2IMOWUzsxOzIxMDc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, bs1, bs2" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="22"/>
+            <output expression="a" newline="True"/>
+            <while expression="a&lt;100">
+                <assign variable="a" expression="a+1"/>
+                <assign variable="bs1" expression="a%10"/>
+                <assign variable="b" expression="a"/>
+                <assign variable="b" expression="b/10"/>
+                <assign variable="bs2" expression="b"/>
+                <if expression="(bs1==2)||(bs1==3)||(bs1==5)||(bs1==7)">
+                    <then>
+                        <if expression="(bs2==2)||(bs2==3)||(bs2==5)||(bs2==7)">
+                            <then>
+                                <output expression="a" newline="True"/>
+                            </then>
+                            <else/>
+                        </if>
+                    </then>
+                    <else/>
+                </if>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
