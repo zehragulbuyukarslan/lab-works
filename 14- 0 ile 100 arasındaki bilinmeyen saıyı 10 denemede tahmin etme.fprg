@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="zhg"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-12-15 06:59:12 &#214;S"/>
+        <attribute name="created" value="emhnO1pIUjsyMDIzLTEyLTE1OzA2OjMyOjIxIMOWUzsxOTg3"/>
+        <attribute name="edited" value="emhnO1pIUjsyMDIzLTEyLTE1OzA2OjU5OjEyIMOWUzsxOzIxMDQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, a, sayac" type="Integer" array="False" size=""/>
+            <assign variable="x" expression="7"/>
+            <output expression="&quot;say&#305;y&#305; tahmin et!&quot;" newline="True"/>
+            <output expression="&quot;0 ile 100 aras&#305;nda bir say&#305; giriniz:&quot;" newline="True"/>
+            <assign variable="sayac" expression="1"/>
+            <input variable="a"/>
+            <while expression="(sayac&lt;10)&amp;&amp;(a!=x)">
+                <output expression="sayac &amp;&quot;. denemede say&#305;y&#305; bulamad&#305;n&#305;z, tekrar deneyiniz&quot;" newline="True"/>
+                <input variable="a"/>
+                <assign variable="sayac" expression="sayac+1"/>
+            </while>
+            <if expression="a==x">
+                <then>
+                    <output expression="&quot;tebrikler, say&#305;y&#305; &quot;&amp;sayac &amp; &quot;. denemede buldunuz&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;&#220;zg&#252;n&#252;m, 10 denemede say&#305;y&#305; bulamad&#305;n&#305;z&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

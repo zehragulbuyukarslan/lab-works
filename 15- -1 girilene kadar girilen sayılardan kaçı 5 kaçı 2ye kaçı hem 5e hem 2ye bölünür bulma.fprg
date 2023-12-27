@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="zhg"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-12-15 09:17:02 &#214;S"/>
+        <attribute name="created" value="emhnO1pIUjsyMDIzLTEyLTE1OzA4OjUyOjIzIMOWUzsxOTkz"/>
+        <attribute name="edited" value="emhnO1pIUjsyMDIzLTEyLTE1OzA5OjE3OjAyIMOWUzsxOzIxMDA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, i, o" type="Integer" array="False" size=""/>
+            <output expression="&quot;sayi giriniz:&quot;" newline="True"/>
+            <assign variable="b" expression="0"/>
+            <assign variable="i" expression="0"/>
+            <assign variable="o" expression="0"/>
+            <input variable="a"/>
+            <while expression="a!=-1">
+                <if expression="a%2==0">
+                    <then>
+                        <assign variable="i" expression="i+1"/>
+                        <if expression="a%5==0">
+                            <then>
+                                <assign variable="o" expression="o+1"/>
+                                <assign variable="b" expression="b+1"/>
+                            </then>
+                            <else/>
+                        </if>
+                    </then>
+                    <else>
+                        <if expression="a%5==0">
+                            <then>
+                                <assign variable="b" expression="b+1"/>
+                            </then>
+                            <else/>
+                        </if>
+                    </else>
+                </if>
+                <input variable="a"/>
+            </while>
+            <output expression="&quot;besin kati olan sayilarin miktari:  &quot; &amp;b" newline="True"/>
+            <output expression="&quot;ikinin kati olan sayilarin miktari:  &quot; &amp;i" newline="True"/>
+            <output expression="&quot;onun kati olan sayilarin miktari:  &quot; &amp;o" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

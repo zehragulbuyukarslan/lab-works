@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="zhg"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-12-15 09:36:05 &#214;S"/>
+        <attribute name="created" value="emhnO1pIUjsyMDIzLTEyLTE1OzA5OjE3OjE5IMOWUzsyMDAw"/>
+        <attribute name="edited" value="emhnO1pIUjsyMDIzLTEyLTE1OzA5OjM2OjA1IMOWUzsxOzIxMDQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, ort, sayac, toplam" type="Integer" array="False" size=""/>
+            <output expression="&quot;sayi giriniz:&quot;" newline="True"/>
+            <assign variable="sayac" expression="0"/>
+            <assign variable="toplam" expression="0"/>
+            <assign variable="a" expression="5628"/>
+            <assign variable="b" expression="4164"/>
+            <while expression="a!=b">
+                <input variable="a"/>
+                <assign variable="toplam" expression="toplam+a"/>
+                <assign variable="sayac" expression="sayac+1"/>
+                <if expression="a==b">
+                    <then/>
+                    <else>
+                        <input variable="b"/>
+                        <assign variable="toplam" expression="toplam+b"/>
+                        <assign variable="sayac" expression="sayac+1"/>
+                    </else>
+                </if>
+            </while>
+            <output expression="&quot;say&#305;lar&#305;n ortalamas&#305;:  &quot; &amp;(toplam-b)/(sayac-1)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
