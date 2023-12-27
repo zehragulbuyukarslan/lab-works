@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="zhg"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-12-13 01:56:03 &#214;&#214;"/>
+        <attribute name="created" value="emhnO1pIUjsyMDIzLTEyLTEzOzAxOjQxOjI5IMOWw5Y7MjExOQ=="/>
+        <attribute name="edited" value="emhnO1pIUjsyMDIzLTEyLTEzOzAxOjU2OjAzIMOWw5Y7MTsyMjI1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, n, p" type="Integer" array="False" size=""/>
+            <assign variable="n" expression="0"/>
+            <assign variable="p" expression="0"/>
+            <assign variable="a" expression="10"/>
+            <assign variable="b" expression="1"/>
+            <while expression="a&gt;0">
+                <output expression="b&amp;&quot;. say&#305;y&#305; giriniz:&quot;" newline="True"/>
+                <declare name="c" type="Real" array="False" size=""/>
+                <input variable="c"/>
+                <assign variable="b" expression="b+1"/>
+                <assign variable="a" expression="a-1"/>
+                <if expression="c&lt;0">
+                    <then>
+                        <assign variable="n" expression="n+1"/>
+                    </then>
+                    <else>
+                        <if expression="c&gt;0">
+                            <then>
+                                <assign variable="p" expression="p+1"/>
+                            </then>
+                            <else/>
+                        </if>
+                    </else>
+                </if>
+            </while>
+            <output expression="&quot;negatif say&#305; miktar&#305;: &quot; &amp;n &amp;&quot;    pozitif say&#305; miktar&#305;: &quot; &amp;p" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

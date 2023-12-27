@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="zhg"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-12-14 12:49:09 &#214;&#214;"/>
+        <attribute name="created" value="emhnO1pIUjsyMDIzLTEyLTE0OzEyOjE4OjUwIMOWw5Y7MjEyMA=="/>
+        <attribute name="edited" value="emhnO1pIUjsyMDIzLTEyLTE0OzEyOjM1OjU1IMOWw5Y7MTt6aGc7WkhSOzIwMjMtMTItMTM7MTE6MDA6MzYgw5ZTOzQyNzM="/>
+        <attribute name="edited" value="emhnO1pIUjsyMDIzLTEyLTE0OzEyOjQ5OjA5IMOWw5Y7MTsyMjM2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, bolum, kalan" type="Integer" array="False" size=""/>
+            <output expression="&quot;bolunen sayiyi giriniz:&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;bolen sayiyi giriniz:&quot;" newline="True"/>
+            <input variable="b"/>
+            <assign variable="kalan" expression="a%b"/>
+            <assign variable="a" expression="a-kalan"/>
+            <assign variable="bolum" expression="0"/>
+            <while expression="a&gt;0">
+                <assign variable="a" expression="a-b"/>
+                <assign variable="bolum" expression="bolum+1"/>
+            </while>
+            <output expression="&quot;bolum:  &quot;&amp;bolum&amp;&quot;  kalan:  &quot;&amp;kalan" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

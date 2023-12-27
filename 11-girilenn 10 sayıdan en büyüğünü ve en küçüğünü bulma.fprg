@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="zhg"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-12-13 07:52:53 &#214;S"/>
+        <attribute name="created" value="emhnO1pIUjsyMDIzLTEyLTEzOzAyOjE4OjQxIMOWw5Y7MjExOA=="/>
+        <attribute name="edited" value="emhnO1pIUjsyMDIzLTEyLTEzOzA3OjUyOjUzIMOWUzsyOzIxMDI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, d, e" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="0"/>
+            <assign variable="d" expression="-7954246634"/>
+            <assign variable="e" expression="99999999999999999"/>
+            <while expression="a&lt;10">
+                <input variable="b"/>
+                <assign variable="a" expression="a+1"/>
+                <if expression="b&gt;d">
+                    <then>
+                        <assign variable="d" expression="b"/>
+                    </then>
+                    <else/>
+                </if>
+                <if expression="b&lt;e">
+                    <then>
+                        <assign variable="e" expression="b"/>
+                    </then>
+                    <else/>
+                </if>
+            </while>
+            <output expression="&quot;en b&#252;y&#252;k de&#287;er:  &quot; &amp;d &amp;&quot; en k&#252;&#231;&#252;k de&#287;er:  &quot; &amp;e" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

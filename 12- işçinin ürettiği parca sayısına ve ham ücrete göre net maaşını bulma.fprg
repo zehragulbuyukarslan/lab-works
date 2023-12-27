@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="zhg"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-12-13 11:17:36 &#214;S"/>
+        <attribute name="created" value="emhnO1pIUjsyMDIzLTEyLTEzOzExOjAwOjM2IMOWUzsxOTgy"/>
+        <attribute name="edited" value="emhnO1pIUjsyMDIzLTEyLTEzOzExOjE3OjM2IMOWUzsxOzIwOTg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="maas, parca" type="Integer" array="False" size=""/>
+            <output expression="&quot;maas giriniz:&quot;" newline="True"/>
+            <input variable="maas"/>
+            <if expression="maas&lt;0">
+                <then>
+                    <output expression="&quot;yanl&#305;s deger girdiniz!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;parca sayisi giriniz:&quot;" newline="True"/>
+                    <input variable="parca"/>
+                    <if expression="parca&lt;0">
+                        <then>
+                            <output expression="&quot;yanl&#305;s deger girdiniz!&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="parca&lt;10">
+                                <then>
+                                    <output expression="&quot;maas: &quot; &amp;(maas+parca*5000)" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="(parca&gt;=10)&amp;&amp;(parca&lt;30)">
+                                        <then>
+                                            <output expression="&quot;maas: &quot; &amp;(maas+parca*8000)" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <output expression="&quot;maas: &quot; &amp;(maas+parca*12000)" newline="True"/>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
