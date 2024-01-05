@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="zhg"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-01-03 12:11:37 &#214;S"/>
+        <attribute name="created" value="emhnO1pIUjsyMDI0LTAxLTAzOzEwOjQ2OjQ3IMOWw5Y7MjEyMg=="/>
+        <attribute name="edited" value="emhnO1pIUjsyMDI0LTAxLTAzOzEyOjExOjM3IMOWUzsyOzIwOTM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="arr" type="Integer" array="True" size="10"/>
+            <declare name="i, s" type="Integer" array="False" size=""/>
+            <for variable="i" start="0" end="9" direction="inc" step="1">
+                <output expression="&quot;enter &quot;  &amp;i+1 &amp;&quot;. number: &quot;" newline="True"/>
+                <input variable="arr[i]"/>
+                <if expression="arr[i]==-1">
+                    <then>
+                        <assign variable="i" expression="9"/>
+                    </then>
+                    <else>
+                        <assign variable="s" expression="arr[i]*arr[i]"/>
+                        <output expression="&quot;square of the number: &quot; &amp;s" newline="True"/>
+                    </else>
+                </if>
+            </for>
+            <output expression="&quot;program ends&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
