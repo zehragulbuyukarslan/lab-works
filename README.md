@@ -1,4 +1,6 @@
-This repository currently contains laboratories 3 through 10.
+This repository currently contains laboratories 3 through 10. 
+
+lab 11, 12 and 13 will be added later.
 
 The file names which start with "C" represents that it's a C code.
 
