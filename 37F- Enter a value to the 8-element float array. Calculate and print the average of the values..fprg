@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="zhg"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-01-02 11:28:45 &#214;S"/>
+        <attribute name="created" value="emhnO1pIUjsyMDI0LTAxLTAyOzExOjIyOjI3IMOWUzsxOTgz"/>
+        <attribute name="edited" value="emhnO1pIUjsyMDI0LTAxLTAyOzExOjI4OjQ1IMOWUzsxOzIwOTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Real" array="True" size="8"/>
+            <declare name="b, sum" type="Integer" array="False" size=""/>
+            <assign variable="sum" expression="0"/>
+            <for variable="b" start="0" end="7" direction="inc" step="1">
+                <output expression="&quot;enter a number:&quot;" newline="True"/>
+                <input variable="a[b]"/>
+                <assign variable="sum" expression="sum+a[b]"/>
+            </for>
+            <output expression="&quot;avarage of numbers: &quot; &amp;sum/8" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
