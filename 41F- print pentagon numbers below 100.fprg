@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="zhg"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-01-10 08:54:28 &#214;S"/>
+        <attribute name="created" value="emhnO1pIUjsyMDI0LTAxLTEwOzA4OjQ3OjAyIMOWUzsxOTg4"/>
+        <attribute name="edited" value="emhnO1pIUjsyMDI0LTAxLTEwOzA4OjU0OjI4IMOWUzsxOzIxMDI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="pn, i" type="Real" array="False" size=""/>
+            <output expression="&quot;100'den k&#252;&#231;&#252;k Pentagon say&#305;lar&#305;:&quot;" newline="True"/>
+            <for variable="i" start="0" end="8" direction="inc" step="1">
+                <assign variable="pn" expression="i*(3*i-1)/2"/>
+                <output expression="pn &amp;&quot;, &quot;" newline="False"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
