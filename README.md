@@ -1,10 +1,10 @@
-This repository currently contains laboratories 3 through 11. 
+This repository currently contains laboratories 3 through 12. 
 
-lab 12 and 13 will be added later.
+lab 13 will be added later.
 
-The file names which start with "C" represents that it's a C code.
+The file names which start with "C" represent that they are C codes.
 
-The file names which start with "F" represents that it's a flow chart.
+The file names which start with "F" represent that they are flow charts.
 
 WHICH FILE WHICH LAB:
 
